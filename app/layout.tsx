@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider waitlistUrl="/">
+    <ClerkProvider>
       <html lang="en">
         <body>
           <header></header>

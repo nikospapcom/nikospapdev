@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, UserButton, Waitlist } from "@clerk/nextjs";
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
@@ -8,7 +8,6 @@ export default function Home() {
           <h1 className="text-center mb-4 text-2xl">
             Welcome, join our waitlist!
           </h1>
-          <Waitlist />
         </SignedOut>
         <SignedIn>
           <h1 className="text-center mb-4 text-2xl">You are signed in!</h1>
